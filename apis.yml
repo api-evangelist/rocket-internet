@@ -1,8 +1,24 @@
 aid: rocket-internet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rocket-internet.png
 name: Rocket Internet
-description: 'Rocket Internet is a company surfaced as a portfolio company of hv-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer; marketplace. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Rocket Internet SE is a Berlin-based internet company builder and technology investment
+  firm founded by the Samwer brothers. It incubates and scales internet and technology ventures
+  globally and invests through its venture arm, having built and backed more than 200 companies across
+  six continents in e-commerce, marketplaces, fintech, food delivery, and consumer internet. Rocket
+  Internet operates as a holding and operational-support platform rather than a product or API provider,
+  so it exposes no public developer API, SDKs, or documentation surface. This profile was surfaced as a
+  portfolio company of HV Capital and added to the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/rocket-internet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer; Marketplace
+- Company Builder
+- Startup Incubator
+- Venture Capital
+- Technology Investment
+- E-Commerce
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/rocket-internet-domain-security.yml
+- type: Website
+  url: https://www.rocket-internet.com
+- type: PrivacyPolicy
+  url: https://www.rocket-internet.com/imprint
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
